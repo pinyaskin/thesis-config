@@ -4,3 +4,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url: {}
+  server:
+    enable-self-preservation: true
